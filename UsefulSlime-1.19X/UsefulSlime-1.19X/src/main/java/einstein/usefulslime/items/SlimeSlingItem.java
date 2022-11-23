@@ -51,7 +51,7 @@ public class SlimeSlingItem extends Item {
             i = 6;
         }
 
-        i *= 1;
+        i *= 5;
         final HitResult hitResult = getPlayerPOVHitResult(level, player, ClipContext.Fluid.NONE);
 
         if (hitResult != null && hitResult.getType() == HitResult.Type.BLOCK) {
